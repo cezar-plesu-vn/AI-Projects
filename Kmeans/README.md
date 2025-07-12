@@ -48,6 +48,7 @@ This project implements the following lab requirements:
 ---
 
 ## Project Structure
+```
 Project_KMeans_Clustering/
 ├── main.py # Main script: K-Means + visualization
 ├── data/ # Data files
@@ -58,7 +59,7 @@ Project_KMeans_Clustering/
 │ └── kmeans_result.png
 ├── requirements.txt # Python dependencies
 └── README.md # This file
-
+```
 
 ---
 
@@ -86,7 +87,7 @@ The project uses the following datasets, which should be placed in the data/ fol
 
 
 ---
-##Example Results
+## Example Results
 After running the script, you will see visual plots similar to those from the lab documentation. These include:
 - Initial data points.
 - Clustered points with marked centroids.
