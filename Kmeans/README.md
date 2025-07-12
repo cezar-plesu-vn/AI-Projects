@@ -3,14 +3,13 @@ This repository contains an implementation of the K-Means algorithm, developed f
 ---
 
 ## Table of Contents
-
-	- [Overview](#overview)
-	- [Implemented Requirements](#implemented-requirements)
-	- [Project Structure](#project-structure)
-	- [How to Run](#how-to-run)
-	- [Data Files](#data-files)
-	- [Technologies Used](#technologies-used)
-	- [Example Results](#example-results)
+- [Overview](#overview)
+- [Implemented Requirements](#implemented-requirements)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Data Files](#data-files)
+- [Technologies Used](#technologies-used)
+- [Example Results](#example-results)
 
 ---
 
@@ -26,14 +25,14 @@ In this project:
 ---
 
 ## Implemented Requirements
-	This project implements the following lab requirements:
+This project implements the following lab requirements:
 
 ### K-Means Algorithm:
-	- Euclidean distance calculation between points and centroids.
-	- Random initialization of centroids.
-	- Iterative assignment of points to the closest centroid.
-	- Recalculation of centroids as the mean of assigned points.
-	- Stop condition based on centroid convergence.
+- Euclidean distance calculation between points and centroids.
+- Random initialization of centroids.
+- Iterative assignment of points to the closest centroid.
+- Recalculation of centroids as the mean of assigned points.
+- Stop condition based on centroid convergence.
 
 ### Cluster Visualization:
 - Plot of initial data points.
@@ -65,33 +64,33 @@ Project_KMeans_Clustering/
 
 ## How to Run
 1. **Make sure you have pip installed, then run:**
-	pip install -r requirements.txt
+		pip install -r requirements.txt
 
 2. **Run the main script:**
-	python main.py
+		python InvA_Kmeans.py
 
 ---
 
 ## Data Files
 The project uses the following datasets, which should be placed in the data/ folder:
-	- knnpoints3.txt: Ideal for **K=3**.
-	- knnpoints4.txt: Ideal for **K=4**.
-	- knnpoints_uniform.txt: Uniformly distributed points, to observe K-Means behavior in such cases
+- knnpoints3.txt: Ideal for **K=3**.
+- knnpoints4.txt: Ideal for **K=4**.
+- knnpoints_uniform.txt: Uniformly distributed points, to observe K-Means behavior in such cases
 
 ---
 
 ## Technologies Used
-	- **Python**: Main programming language.
-	- **NumPy**: Efficient numerical operations, especially for distance calculations and matrix operations.
-	- **Matplotlib**: Visualizing data and clustering results.
+- **Python**: Main programming language.
+- **NumPy**: Efficient numerical operations, especially for distance calculations and matrix operations.
+- **Matplotlib**: Visualizing data and clustering results.
 
 
 ---
 ##Example Results
 After running the script, you will see visual plots similar to those from the lab documentation. These include:
-	- Initial data points.
-	- Clustered points with marked centroids.
-	- Silhouette values for various K values.
+- Initial data points.
+- Clustered points with marked centroids.
+- Silhouette values for various K values.
 
 ![K-Means Result](images/kmeans_result.png)
 
