@@ -65,10 +65,12 @@ Project_KMeans_Clustering/
 
 ## How to Run
 1. **Make sure you have pip installed, then run:**
-		```bash pip install -r requirements.txt ```
+		```bash 
+			pip install -r requirements.txt ```
 
 2. **Run the main script:**
-		```bash python InvA_Kmeans.py ```
+		```bash 
+			python InvA_Kmeans.py ```
 
 ---
 
