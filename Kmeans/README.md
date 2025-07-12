@@ -70,7 +70,7 @@ Project_KMeans_Clustering/
 
 2. **Run the main script:**
 	```bash 
-		python InvA_Kmeans.py 
+	python InvA_Kmeans.py 
 
 ---
 
